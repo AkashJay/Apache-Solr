@@ -1,0 +1,125 @@
+2018-09-10 09:54:51.307 INFO  (main) [   ] o.e.j.u.log Logging initialized @335ms
+2018-09-10 09:54:51.498 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2018-09-10 09:54:51.518 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/akash/Documents/3rd%20Year%202nd%20Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/contexts/] at interval 0
+2018-09-10 09:54:51.822 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-09-10 09:54:51.833 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/3rd%20Year%202nd%20Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr-webapp/webapp/,STARTING}{/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-09-10 09:54:51.843 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1465085305@57536d79
+2018-09-10 09:54:51.859 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-10 09:54:51.860 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr
+2018-09-10 09:54:51.862 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr'
+2018-09-10 09:54:51.862 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-10 09:54:51.862 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr
+2018-09-10 09:54:51.870 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/solr.xml
+2018-09-10 09:54:51.947 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr
+2018-09-10 09:54:51.970 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 700072760
+2018-09-10 09:54:51.970 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr]
+2018-09-10 09:54:51.971 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/lib to classpath: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/lib
+2018-09-10 09:54:51.979 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-09-10 09:54:52.289 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-09-10 09:54:52.292 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-09-10 09:54:52.293 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-09-10 09:54:52.294 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-09-10 09:54:52.294 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-09-10 09:54:52.325 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr
+2018-09-10 09:54:52.332 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=bookstore, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2018-09-10 09:54:52.332 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core bookstore in /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore
+2018-09-10 09:54:52.332 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2018-09-10 09:54:52.337 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server
+2018-09-10 09:54:52.337 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-09-10 09:54:52.337 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore'
+2018-09-10 09:54:52.337 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-09-10 09:54:52.337 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr
+2018-09-10 09:54:52.351 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@5383967b{/solr,file:///home/akash/Documents/3rd%20Year%202nd%20Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr-webapp/webapp/,AVAILABLE}{/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr-webapp/webapp}
+2018-09-10 09:54:52.364 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@3a52dba3{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-09-10 09:54:52.364 INFO  (main) [   ] o.e.j.s.Server Started @1393ms
+2018-09-10 09:54:52.369 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2018-09-10 09:54:52.417 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-09-10 09:54:52.422 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.0.0
+2018-09-10 09:54:52.505 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2018-09-10 09:54:52.547 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [bookstore] Schema name=example
+2018-09-10 09:54:52.825 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: isbn
+2018-09-10 09:54:52.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-10 09:54:52.927 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2018-09-10 09:54:52.934 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore'
+2018-09-10 09:54:52.935 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'bookstore' using configuration from instancedir /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore
+2018-09-10 09:54:52.960 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-09-10 09:54:52.971 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrCore [[bookstore] ] Opening new SolrCore at [/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore], dataDir=[/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/]
+2018-09-10 09:54:52.973 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-09-10 09:54:52.978 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2018-09-10 09:54:53.041 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data
+2018-09-10 09:54:53.041 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrCore New index directory detected: old=null new=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index/
+2018-09-10 09:54:53.042 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.CachingDirectoryFactory return new directory for /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index
+2018-09-10 09:54:53.057 INFO  (OldIndexDirectoryCleanupThreadForCore-bookstore) [   x:bookstore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core bookstore in /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/
+2018-09-10 09:54:53.125 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-09-10 09:54:53.147 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-10 09:54:53.149 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-10 09:54:53.150 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-10 09:54:53.150 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-09-10 09:54:53.207 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-09-10 09:54:53.208 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-09-10 09:54:53.209 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-09-10 09:54:53.210 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/sql,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2018-09-10 09:54:53.210 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-09-10 09:54:53.220 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-09-10 09:54:53.221 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-09-10 09:54:53.235 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-09-10 09:54:53.235 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-09-10 09:54:53.289 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7372a359; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2018-09-10 09:54:53.290 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.SolrDeletionPolicy newest commit generation = 2
+2018-09-10 09:54:53.338 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a35388f[bookstore] main]
+2018-09-10 09:54:53.348 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/conf
+2018-09-10 09:54:53.348 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/conf}
+2018-09-10 09:54:53.360 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/conf
+2018-09-10 09:54:53.361 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/conf
+2018-09-10 09:54:53.361 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2018-09-10 09:54:53.361 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-09-10 09:54:53.370 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-09-10 09:54:53.382 INFO  (searcherExecutor-7-thread-1-processing-x:bookstore) [   x:bookstore] o.a.s.c.SolrCore [bookstore] Registered new searcher Searcher@6a35388f[bookstore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.0.0):C7)))}
+2018-09-10 09:54:53.383 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-09-10 09:54:53.384 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-09-10 09:54:53.394 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.VersionInfo Found MAX value 1611051387841413120 from Terms for _version_ in index
+2018-09-10 09:54:53.401 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.u.UpdateLog Took 17.0ms to seed version buckets with highest version 1611051387841413120
+2018-09-10 09:54:53.402 INFO  (coreLoadExecutor-6-thread-1) [   x:bookstore] o.a.s.c.CoreContainer registering core: bookstore
+2018-09-10 09:55:00.950 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536573300787} status=0 QTime=11
+2018-09-10 09:55:00.975 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536573300788} status=0 QTime=27
+2018-09-10 09:55:01.032 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536573300788} status=0 QTime=19
+2018-09-10 09:55:04.346 INFO  (qtp1791930789-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536573300787} status=0 QTime=0
+2018-09-10 09:55:04.354 INFO  (qtp1791930789-18) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1536573304333} status=0 QTime=3
+2018-09-10 09:55:04.372 INFO  (qtp1791930789-18) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/replication params={wt=json&command=details&_=1536573304334} status=0 QTime=8
+2018-09-10 09:55:04.388 INFO  (qtp1791930789-16) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/admin/system params={wt=json&_=1536573304334} status=0 QTime=24
+2018-09-10 09:55:04.392 INFO  (qtp1791930789-20) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1536573300788&ts=1536573300788} status=503 QTime=5
+2018-09-10 09:55:04.394 INFO  (qtp1791930789-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536573300788} status=0 QTime=42
+2018-09-10 09:55:08.142 INFO  (qtp1791930789-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1536573300787} status=0 QTime=0
+2018-09-10 09:55:08.160 INFO  (qtp1791930789-17) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1536573304333} status=0 QTime=13
+2018-09-10 09:55:08.162 INFO  (qtp1791930789-13) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/config params={wt=json&_=1536573308118} status=0 QTime=4
+2018-09-10 09:55:08.180 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1536573300788} status=0 QTime=37
+2018-09-10 09:55:08.245 INFO  (qtp1791930789-19) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1536573304333} status=0 QTime=16
+2018-09-10 11:14:09.029 INFO  (qtp1791930789-21) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[9788178299785 (1611218864286203904)]} 0 93
+2018-09-10 11:14:09.063 INFO  (qtp1791930789-17) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[05702666 (1611218864366944256)]} 0 8
+2018-09-10 11:14:09.070 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[7269616 (1611218864379527168)]} 0 2
+2018-09-10 11:14:09.084 INFO  (qtp1791930789-20) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[317161111 (1611218864394207232)]} 0 3
+2018-09-10 11:14:09.091 INFO  (qtp1791930789-13) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[891090460 (1611218864401547264)]} 0 3
+2018-09-10 11:14:09.097 INFO  (qtp1791930789-16) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[9780072231892 (1611218864408887296)]} 0 2
+2018-09-10 11:14:09.104 INFO  (qtp1791930789-19) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[9780521243377 (1611218864414130176)]} 0 3
+2018-09-10 11:14:09.109 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-09-10 11:14:09.192 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7372a359; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7372a359; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2018-09-10 11:14:09.192 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.c.SolrDeletionPolicy newest commit generation = 3
+2018-09-10 11:14:09.194 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.s.SolrIndexSearcher Opening [Searcher@722b948f[bookstore] main]
+2018-09-10 11:14:09.195 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-09-10 11:14:09.196 INFO  (searcherExecutor-7-thread-1-processing-x:bookstore) [   x:bookstore] o.a.s.c.SolrCore [bookstore] Registered new searcher Searcher@722b948f[bookstore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.0.0):C7)))}
+2018-09-10 11:14:09.199 INFO  (qtp1791930789-15) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 90
+2018-09-10 11:14:09.233 INFO  (qtp1791930789-21) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/select params={q=isbn:9780072231892&rows=10&wt=javabin&version=2} hits=1 status=0 QTime=26
+2018-09-10 11:14:09.267 INFO  (qtp1791930789-17) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[9780072231892 (1611218864582950912)]} 0 5
+2018-09-10 11:14:09.270 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-09-10 11:14:09.309 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7372a359; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/akash/Documents/3rd Year 2nd Semester/IRWA/Project_Solr/Apache_Solr/solr-6.0.0/solr-6.0.0/server/solr/bookstore/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7372a359; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2018-09-10 11:14:09.309 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.c.SolrDeletionPolicy newest commit generation = 4
+2018-09-10 11:14:09.312 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.s.SolrIndexSearcher Opening [Searcher@adc71b9[bookstore] main]
+2018-09-10 11:14:09.313 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-09-10 11:14:09.313 INFO  (searcherExecutor-7-thread-1-processing-x:bookstore) [   x:bookstore] o.a.s.c.SolrCore [bookstore] Registered new searcher Searcher@adc71b9[bookstore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.0.0):C7/1:delGen=1) Uninverting(_2(6.0.0):C1)))}
+2018-09-10 11:14:09.313 INFO  (qtp1791930789-12) [   x:bookstore] o.a.s.u.p.LogUpdateProcessorFactory [bookstore]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 43
+2018-09-10 11:14:09.317 INFO  (qtp1791930789-20) [   x:bookstore] o.a.s.c.S.Request [bookstore]  webapp=/solr path=/select params={q=isbn:9780072231892&rows=10&wt=javabin&version=2} hits=1 status=0 QTime=1
