@@ -429,6 +429,11 @@
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
     -->
+
+<!-- There is a endpoint defined by name select for this core and delegate to a serachHandler -->
+<!-- By default "wt" parameter is XML -->
+<!-- The difference between /select and /query request handler is , /query explicitly define that wt format  -->
+
   <requestHandler name="/select" class="solr.SearchHandler">
     <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
